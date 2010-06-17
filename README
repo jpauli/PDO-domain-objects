@@ -1,0 +1,6 @@
+This project demonstrates how to extend PDO and just PDO to create active record domain objects.
+The ideas are simple and to be extended if you feel, they just show how powerfull and extensible PDO can be.
+
+This project is aimed for PHP training sessions and is not designed to be used as a production code as-is.
+
+PHP >= 7.1

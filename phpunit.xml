@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./tests/bootstrap.php" colors="true">
+    <testsuites>
+	    <testsuite name="PDO-domain-objects test suite">
+	        <directory>./tests</directory>
+	    </testsuite>
+    </testsuites>
+    
+    <groups>
+        <exclude>
+            <group>disable</group>
+        </exclude>
+    </groups>
+    <php>
+        <const name="DATA_PATH" value="tests/_data" />
+    </php>
+</phpunit>
